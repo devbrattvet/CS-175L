@@ -53,6 +53,12 @@ public class bankAccount
 		  balance = interest + balance;
 		  System.out.println("Interest: $" + interest);
 	   }
+	  
+	   public void BankThreshold(double startBal, double interestPct)
+	    {
+	 	   balance = startBal;
+	 	   interestPercent = interestPct;
+	    }
 	   /**
 	      Gets the current balance of this bank account.
 	      @return the current balance
